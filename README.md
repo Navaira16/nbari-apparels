@@ -1,93 +1,141 @@
 # nBari Apparels
 
-A modern, single-page boutique website for **nBari Apparels** — a Pakistan-based brand specializing in elegant abayas and modest wear. Built as a single self-contained HTML file with custom CSS, ready to deploy anywhere.
+**Where Elegance Meets Style**
 
-🛍️ **Cash on Delivery available across Pakistan**
+A responsive single-page e-commerce website developed for **nBari Apparels**, a Pakistan-based boutique-style modest fashion brand specializing in designer abayas.
 
----
+The website was developed as a real-world project and tested through manual QA to validate key user flows, product interactions, UI behavior, and responsive presentation across screen sizes.
 
-## ✨ Features
+## 🌐 Live Website
 
-- **Single-file build** — everything (HTML, CSS, JS) lives in `nbari-apparels.html`. No build step, no dependencies.
-- **Boutique-style design** — clean typography, generous whitespace, and a soft luxury palette tuned for fashion retail.
-- **Responsive layout** — looks great on mobile, tablet, and desktop.
-- **Hero section** — featured abaya image with brand tagline and call-to-action.
-- **Product showcase** — card-based grid with named abaya collection pieces.
-- **Social integration** — direct links to the brand's Instagram and Facebook pages.
-- **Lightweight & fast** — no frameworks, no trackers, instant load.
+**Website:** https://www.nbariapparels.com
 
----
+## ✨ Project Overview
 
-## 🚀 Quick Start
+nBari Apparels is a boutique-style abaya brand offering individually designed pieces rather than bulk-produced collections.
 
-### Option 1 — Open locally
-Just double-click `nbari-apparels.html` in any modern browser.
+The website was developed to provide customers with a simple and elegant way to:
 
-### Option 2 — Serve locally
-```bash
-# Python
-python3 -m http.server 8000
+* Browse available abayas
+* View product details and images
+* Add products to the cart
+* Review cart contents
+* Proceed with the ordering flow through WhatsApp
+* View customer reviews
+* Access the brand's social media pages
+* Browse the website on desktop and mobile devices
 
-# Node
-npx serve .
-```
-Then visit `http://localhost:8000/nbari-apparels.html`.
+## 🛠️ Technologies
 
----
+* HTML5
+* CSS3
+* JavaScript
+* GitHub
+* GitHub Pages
+* Custom domain
+* WhatsApp integration
 
-## 🌐 Publish on GitHub Pages (Free Hosting)
+The website is built as a **single self-contained `index.html` file**, with the HTML, CSS, and JavaScript contained within the same file. Product and brand images are stored separately in the repository.
 
-1. Create a new **public** repository on GitHub named `nbari-apparels`.
-2. Upload `nbari-apparels.html` and **rename it to `index.html`**.
-3. Go to **Settings → Pages**.
-4. Under **Source**, choose the `main` branch and `/ (root)` folder, then **Save**.
-5. Within ~1 minute, your site will be live at:
-   ```
-   https://<your-username>.github.io/nbari-apparels/
-   ```
+## 🎨 Design & User Experience
 
-> 💡 Tip: To use a custom domain (e.g. `nbariapparels.com`), add it under **Settings → Pages → Custom domain** and update your DNS records.
+The website follows a clean, minimal and boutique-style visual approach with a focus on:
 
----
+* Modest fashion presentation
+* Product-focused layouts
+* Clear navigation
+* Responsive design
+* Mobile-friendly presentation
+* Simple shopping interactions
+* Consistent brand identity
 
-## 📁 Project Structure
+## 🧪 Manual QA & Testing
 
-```
+Manual QA was performed on the live web application to validate key functional and UI areas.
+
+Testing included:
+
+* Functional testing
+* UI testing
+* Navigation testing
+* Product display validation
+* Add-to-cart behavior
+* Cart functionality
+* Sold-out product behavior
+* User flow validation
+* Responsive layout checks
+* Cross-screen-size validation
+* Content and link validation
+
+Detailed test cases and testing documentation are maintained separately in:
+
+**`nBari_Apparels_TestCases.xlsx`**
+
+The test case document contains the project overview and structured test cases used for the QA validation of the website.
+
+## 📋 QA Documentation
+
+The QA documentation covers the testing scope and test cases for the nBari Apparels website.
+
+The documentation demonstrates practical experience with:
+
+* Test case documentation
+* Functional validation
+* UI validation
+* Web application testing
+* Responsive testing
+* User-flow validation
+* Test result documentation
+
+## 🚀 Deployment
+
+The website is deployed using **GitHub Pages** with a custom domain.
+
+The repository is configured for deployment from the main branch.
+
+## 📁 Repository Structure
+
+```text
 nbari-apparels/
-├── index.html              # main site (rename from nbari-apparels.html)
-├── images/                 # product photos (abayas, hero image, etc.)
-│   └── Black Fancy Abaya.jpeg
-└── README.md
+│
+├── index.html
+├── nBari_Apparels_TestCases.xlsx
+├── README.md
+├── CNAME
+│
+└── Product & Brand Images
+    ├── Abaya product images
+    ├── Product detail images
+    ├── Customer review images
+    └── Brand assets
 ```
 
----
+## 💼 Project Highlights
 
-## 🛠 Customizing
+This project combines **web development and manual QA** in a real-world e-commerce environment.
 
-All styles live in the `<style>` block at the top of the HTML file. Common tweaks:
+Key areas demonstrated through the project include:
 
-| What to change | Where to look |
-|---|---|
-| Brand colors | `:root` CSS variables at the top |
-| Hero image | `.hero` background / `<img>` in hero section |
-| Product cards | `.product-grid` section |
-| Social links | Footer `<a>` tags (Instagram / Facebook URLs) |
-| Contact info | Footer info block |
+* Building and maintaining a responsive web application
+* Working with HTML, CSS and JavaScript
+* Deploying a website through GitHub Pages
+* Managing a custom domain
+* Understanding user flows and e-commerce interactions
+* Creating structured manual test cases
+* Validating website functionality and UI
+* Performing responsive testing
+* Documenting QA activities
 
----
+## 👩‍💻 Project Role
 
-## 📱 Connect with nBari Apparels
+**Founder & Developer — nBari Apparels**
+**Manual QA / Testing**
 
-- **Instagram:** [@nbari.apparels1](https://www.instagram.com/nbari.apparels1?igsh=NDYzeTN1Yzd4MGly)
-- **Facebook:** [nBari Apparels](https://www.facebook.com/share/1D5c4FT1NF/)
+The website was developed and tested as part of the nBari Apparels brand project.
 
----
+## 📱 Brand
 
-## 📜 License
+**nBari Apparels**
+*Where Elegance Meets Style*
 
 © nBari Apparels. All product images and brand assets belong to nBari Apparels.
-The website code is free to adapt for personal or commercial use.
-
----
-
-*Made with ❤️ for modest fashion.*
